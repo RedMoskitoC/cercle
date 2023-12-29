@@ -1,3 +1,6 @@
 # cercle
 on calcule le perimetre du cercle
-salut
+
+## Méthode
+
+On coupe le cercle en tranches.....
