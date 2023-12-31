@@ -1,6 +1,7 @@
 # Approximation du périmètre du cercle
 On calcule le périmetre du cercle.
 
+Lien vers le code python: [perimetre.py](https://github.com/RedMoskitoC/cercle/blob/main/perimetre.py)
 ## Méthode
 
 On divise le cercle en $n$ tranches. Chaque tranche correspond à un angle $\alpha$ de $\frac{2\pi}{n}$.

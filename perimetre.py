@@ -8,15 +8,16 @@ def perimetre(r,n):
     """
 
     alpha = 2 * math.pi / n
-    a = r * math.sin(alpha)
+    h = r * math.sin(alpha)
     b = r - r * math.cos(alpha)
-    x = math.sqrt(a * a + b * b)
-    return n * x
+    c = math.sqrt(h * h + b * b)
+    return n * c
 
 def vperimetre(r):
-    return 2 * math.pi*r
-n=input("On repete combien de fois:")
-for i in range(2,20):
+    return 2 * math.pi * r
+
+n=int(input("On repete combien de fois:"))
+for i in range(2,n):
    p = perimetre(5,i)
    vp = vperimetre(5)
    print("L'approximation est %s la vrai est %s" % (p , vp))
